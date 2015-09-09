@@ -47,8 +47,7 @@ development:
   host: localhost
   database: timekeeper_dev
   username: timekeeper_dev
-  # password: <%= ENV['db_password_timekeeper_dev'] %>
-  password: 0ctetSun
+  password: <%= ENV['db_password_timekeeper_dev'] %>
   sslca: /usr/local/etc/canvas/ca.pem
 
 staging:
